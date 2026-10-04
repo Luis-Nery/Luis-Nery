@@ -4,7 +4,7 @@
 
 Day to day I build applied AI systems in Python:
 
-- **A production RAG pipeline:** parsing and cleaning at ingestion, embeddings, retrieval fused with reciprocal rank fusion, reranking, and an evaluation suite to measure every change
+- **A production RAG pipeline:** parsing and cleaning at ingestion, embeddings, retrieval fused with reciprocal rank fusion, reranking, and evals on a golden question set that score retrieval quality and answer faithfulness with an LLM as judge
 - **A report generator** that produces documents from data against a defined layout
 - **A part-number PDF finder** that lets a drafting team pull the right document by part number
 - Lightweight frontends on top of these services, so the people who need them can use them without touching an API
